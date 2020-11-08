@@ -1,0 +1,46 @@
+name: medic_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  geocoder: ^0.2.1
+  geolocator: ^6.0.0+4
+  provider: ^4.3.2+2
+  extended_image: ^1.1.2
+  image_picker: ^0.6.7+12
+  native_pdf_renderer: ^2.3.2
+  google_fonts: ^1.1.0
+  http: ^0.12.2
+  carousel_slider:
+  line_awesome_flutter: ^1.0.1
+  flutter_socket_io: ^0.6.0
+  intl: ^0.16.1
+  numeric_keyboard:
+  lottie: ^0.2.1
+  bubble_bottom_bar: ^1.2.0
+  fit_kit: ^1.1.2
+  firebase_storage:
+  percent_indicator:
+    
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+    - assets/img/
+
